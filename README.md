@@ -25,7 +25,7 @@
 
 ## 🚧 Projeto
 
-Live Preview:
+Live Preview: https://macos-portfolio.vercel.app/
 
 ## :memo: Licença
 
