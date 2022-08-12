@@ -115,3 +115,7 @@ footer img {
     display: none;
   }
 }
+
+.setup {
+  overflow: scroll;
+}
