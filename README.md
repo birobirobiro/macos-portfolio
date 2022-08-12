@@ -25,7 +25,7 @@
 
 ## 🚧 Projeto
 
-Live Preview: https://macos-portfolio.vercel.app/
+Live Preview: https://macos.birobirobiro.dev/
 
 ## :memo: Licença
 
