@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Neuzeit Grotesk;
+  src: url("./font/NeuzeitGrotesk.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+#biro {
+  font-family: "Neuzeit Grotesk";
+  font-size: 18px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: 50px;
+  padding: 0 16px 0 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-dropdown {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+#date-hour {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin: 16px;
+  font-size: 0.9em;
+}
+
+.container-content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main h2,
+h3 {
+  padding: 10px 0 10px 0;
+}
+
+main h1 {
+  padding: 20px 0 20px 0;
+}
+
+main p {
+  padding-top: 10px;
+}
+
+.dd-toggle a {
+  text-decoration: none;
+}
+
+.dd-toggle:hover a {
+  background-color: transparent;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
