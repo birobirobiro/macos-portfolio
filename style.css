@@ -116,6 +116,6 @@ footer img {
   }
 }
 
-.setup {
-  overflow: scroll;
+div#setup-container {
+  overflow-y: hidden;
 }
